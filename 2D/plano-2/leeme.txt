@@ -1,0 +1,11 @@
+En este ejemplo, se quiere mostrar que el agua se distribuye uniformemente
+en todo el espacio del plano. 
+Por eso, se puso agua en solo 5 celdas, para ver como se esparce el agua, 
+y ademas, al final, como todas las celdas quedan en equilibrio. 
+O sea, todas con la misma cantidad de agua.
+
+Para esto usamos una matriz de 25x25, lo que nos da un total de 625 posiciones.
+A 5 de ellas se les asigno el valor de 125, para que al final, quedasen todas
+las celdas con 1.
+Ademas se puede ver el efecto que produce el esparcimiento de cada "gota" sobre
+el resto.

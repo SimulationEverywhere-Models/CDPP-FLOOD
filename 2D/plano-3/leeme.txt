@@ -1,0 +1,15 @@
+Continuamos con nuestra matriz de 25x25, pero en este caso, se le agregaron
+paredes de tal forma, que crean una submatrix interior 4x4. Ademas, si 
+contamos las paredes, a la matriz general le estamos sacando una submatriz
+de 6x6. Con lo cual.
+
+Total celdas: 25x25 = 625
+Total interior: 4x4 = 16
+Celdas quitadas: 6x6 = 36
+
+Matriz exterior: 625 - 36 = 589
+
+Con lo cual, a la matriz interior se le puso una "gota" de 32 para que quedasen
+todas las celdas con 2 de agua, y a la exterior se le pusieron 4 "gotas" de
+147.25 (dan un total de 589) para que cada celda posea 1 de agua.
+De esta forma, se nota que las paredes no tienen filtraciones...

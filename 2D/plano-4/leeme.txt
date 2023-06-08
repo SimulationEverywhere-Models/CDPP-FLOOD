@@ -1,0 +1,3 @@
+En este ejemplo, seguimos con nuestra matriz de 25x25, y en este caso le 
+mandamos una "gota" con cantidad 1 en la posicion (10,10) cada 2 segundos
+en forma constante para ver como se distribuye el agua.

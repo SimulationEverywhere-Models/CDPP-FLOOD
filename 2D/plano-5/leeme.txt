@@ -1,0 +1,4 @@
+En este ejemplo, seguimos con nuestra matriz de 25x25, y le 
+mandamos una "gota" con cantidad 1 en la posicion (12,12) cada 2 segundos
+en forma constante para ver como el agua recorre una especie de 
+laberinto.

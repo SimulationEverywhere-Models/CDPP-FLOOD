@@ -1,0 +1,15 @@
+En este ejemplo, se quiere mostrar que el agua se distribuye uniformemente
+en todo el espacio del plano. Por eso, se puso agua en solo 4 celdas, para
+ver como se esparce el agua, y ademas, al final, como todas las celdas 
+quedan en equilibrio. O sea, todas con la misma cantidad de agua.
+
+Para esto usamos una matriz de 25x25, lo que nos da un total de 625 posiciones.
+A 4 de ellas se les asignamos el valor 4, con lo cual, tenemos 16 de agua.
+O sea, que al distribuirse totalmente, nos tendrian que quedar 
+16 / 625 = 0.0256
+Dado que el DrawLog usa 3 decimales, nos tendrian que quedar valores entre
+0.025 y 0.026 (segun como redondeo). 
+Efectivamente, si nos fijamos los valores del ultimo plano del archivo 
+salida.drw, verificamos estos valores.
+Ademas, se exportaron estos datos a Excel, para poder sumarlos, y verificamos
+que la cuenta de 16.042 (lo que esperabamos).
